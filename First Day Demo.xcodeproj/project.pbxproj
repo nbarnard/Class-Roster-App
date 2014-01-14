@@ -22,6 +22,7 @@
 		110E0F40188460AF001B666C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110E0F1F188460AF001B666C /* UIKit.framework */; };
 		110E0F48188460AF001B666C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 110E0F46188460AF001B666C /* InfoPlist.strings */; };
 		110E0F4A188460AF001B666C /* First_Day_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E0F49188460AF001B666C /* First_Day_DemoTests.m */; };
+		110E0F551884980D001B666C /* NCBFDDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E0F541884980D001B666C /* NCBFDDDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		110E0F45188460AF001B666C /* First Day DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "First Day DemoTests-Info.plist"; sourceTree = "<group>"; };
 		110E0F47188460AF001B666C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		110E0F49188460AF001B666C /* First_Day_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = First_Day_DemoTests.m; sourceTree = "<group>"; };
+		110E0F531884980D001B666C /* NCBFDDDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCBFDDDetailViewController.h; sourceTree = "<group>"; };
+		110E0F541884980D001B666C /* NCBFDDDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCBFDDDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				110E0F34188460AF001B666C /* NCBFDDViewController.m */,
 				110E0F36188460AF001B666C /* Images.xcassets */,
 				110E0F22188460AF001B666C /* Supporting Files */,
+				110E0F531884980D001B666C /* NCBFDDDetailViewController.h */,
+				110E0F541884980D001B666C /* NCBFDDDetailViewController.m */,
 			);
 			path = "First Day Demo";
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 			files = (
 				110E0F35188460AF001B666C /* NCBFDDViewController.m in Sources */,
 				110E0F28188460AF001B666C /* main.m in Sources */,
+				110E0F551884980D001B666C /* NCBFDDDetailViewController.m in Sources */,
 				110E0F2C188460AF001B666C /* NCBFDDAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
